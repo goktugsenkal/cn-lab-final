@@ -85,7 +85,7 @@ checkUser();
                                     <h3 style="text-align: center;">Bilgisayar Mühendisliği Bölüm Başkanlığına</h3>
                                     <br>
                                     <input class="btn btn-success my-1 mb-3" type="button" onclick="autofillNumber();" value="Autofill student number">
-                                    <p>Bölümünüz<input type="text" style="width: 100px; margin-left: 0.5%; margin-right: 0.5%;" draggable="false" id="studentNumber" cols="10" rows="1"></textarea >nolu öğrencisiyim. <input type="text" name="why" style="width: 300px; margin-left: 0.5%; margin-right: 0.5%;" draggable="false" id="" cols="10" rows="1"> nedeniyle ara sınavına giremediğim aşağıda belirtilen dersten mazeret sınav hakkı verilmesini arz ederim. </p>
+                                    <p>Bölümünüz<input type="text" style="width: 130px; margin-left: 0.5%; margin-right: 0.5%;" draggable="false" id="studentNumber" cols="10" rows="1"></textarea >nolu öğrencisiyim. <input type="text" name="why" style="width: 300px; margin-left: 0.5%; margin-right: 0.5%;" draggable="false" id="" cols="10" rows="1"> nedeniyle ara sınavına giremediğim aşağıda belirtilen dersten mazeret sınav hakkı verilmesini arz ederim. </p>
                                     <br>
                                     <b>Ders kodu:</b> <input type="text" name="code" style="width: 100px; margin-left: 1%; margin-right: 0.5%;" draggable="false" id="" cols="10" rows="1"><br><br>
                                     <b>Ders Adı:</b> <input type="text" name="name" style="width: 250px; margin-left: 2%; margin-right: 0.5%;" draggable="false" id="" cols="10" rows="1"><br><br>  

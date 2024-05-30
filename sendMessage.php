@@ -18,7 +18,7 @@ if ($con->query($sqlquery) === TRUE) {
     echo '<script language="javascript">';
     echo 'alert("Message succesfully sent!")';
     echo '</script>';
-    header("refresh:1;url=userpage.php");
+    header("refresh:0;url=userpage.php");
 } else {
     echo "Error: " . $sqlquery . "<br>" . $con->error;
     header("refresh:5;url=userpage.php");

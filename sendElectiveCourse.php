@@ -19,8 +19,10 @@ $content = "<br>Dersin kodu: " . $ex . "<br>Bırakılma nedeni: " . $why . "<br>
 $sqlquery = "INSERT INTO messages (senderId, senderName, type, content) VALUES ('$userId', '$senderName', '$type', '$content')";
 
 if ($con->query($sqlquery) === TRUE) {
-    echo "Your message has been succesfully sent.";
-    header("refresh:2;url=userpage.php");
+    echo '<script language="javascript">';
+    echo 'alert("Message succesfully sent!")';
+    echo '</script>';
+    header("refresh:0;url=userpage.php");
 } else {
     echo "Error: " . $sqlquery . "<br>" . $con->error;
     header("refresh:5;url=userpage.php");
